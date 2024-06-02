@@ -1,0 +1,13 @@
+<div class=" h-[100px]  p-4  fixed top-0 w-screen bg-slate-200  
+border-b-2 border-slate-100 border-opacity-30 bg-white z-50">
+    <div class=" flex items-center w-full h-[100px] p-4 fixed top-0">
+        <h3 class="font-bold text-3xl hover:cursor-pointer">
+            <%= link_to "Delta.", root_path %>
+        </h3>
+        <div class="flex  justify-end p-4 font-semibold w-screen gap-14">
+            <%= link_to "Inicio", root_path, class:"hover:underline decoration-2"%>
+            <%= link_to "Catálogo", store_index_path, class:"hover:underline decoration-2"%>
+            <%= link_to "Aviso legal y contacto", landing_policy_path, class:"hover:underline decoration-2"%>
+        </div>
+    </div>
+</div>

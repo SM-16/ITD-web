@@ -1,0 +1,5 @@
+.animation {
+    animation: "Text";
+}
+
+@keyframes Text {}
